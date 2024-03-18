@@ -1,0 +1,115 @@
+.exp-heading {
+  font-family: "Playfair Display", serif;
+  color: var(--secondary);
+  font-size: 3vw;
+  margin-left: 10%;
+  margin-top: -40px;
+}
+.my-experience {
+  width: 40%;
+  margin: auto;
+  color: white;
+}
+
+.exp-1 div {
+  border-left: 2px solid white;
+  padding-left: 10%;
+}
+.exp-1 div p:nth-child(2) {
+  text-align: justify;
+}
+.exp-1:nth-child(2) {
+  margin-top: 100px;
+}
+.exp-1:nth-child(3) {
+  margin-top: 100px;
+}
+.exp-1 p:nth-child(1) {
+  font-size: 30px;
+  color: var(--secondary);
+}
+.exp-1 div p:nth-child(1) {
+  font-size: 20px;
+  color: white;
+}
+.exp-1 div p:nth-child(2) span {
+  font-size: 12px;
+}
+.exp-1 p:nth-child(3) {
+  font-size: 15px;
+  color: whitesmoke;
+  text-align: justify;
+}
+.vector-1 img {
+  width: 30px;
+  height: 30px;
+}
+.vector-1 {
+  position: absolute;
+}
+.element {
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  margin-left: -73px;
+  margin-top: 10px;
+  border-radius: 50%;
+}
+@media screen and (max-width: 320px) {
+  /* Styles for smaller smartphones */
+  .my-experience {
+    width: 90%;
+  }
+}
+
+@media screen and (min-width: 321px) and (max-width: 480px) {
+  /* Styles for larger smartphones */
+  .my-experience {
+    width: 90%;
+  }
+  .element {
+    margin-left: -50px;
+  }
+}
+
+@media screen and (min-width: 481px) and (max-width: 768px) {
+  /* Styles for tablets */
+}
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+  /* Styles for small desktops and tablets in landscape */
+}
+
+@media screen and (min-width: 1025px) and (max-width: 1440px) {
+  /* Styles for larger desktops and laptops */
+}
+
+/* Additional media queries for larger screens can be added if needed */
+.exp-1:nth-child(1) {
+  animation: move-right linear;
+  animation-timeline: view();
+}
+.exp-1:nth-child(2) {
+  animation: move-left linear;
+  animation-timeline: view();
+}
+.exp-1:nth-child(3) {
+  animation: move-right linear;
+  animation-timeline: view();
+}
+@keyframes move-right {
+  0% {
+    transform: translateX(-100%);
+  }
+  50% {
+    transform: translateX(0);
+  }
+}
+@keyframes move-left {
+  0% {
+    transform: translateX(100%);
+  }
+  50% {
+    transform: translateX(0);
+  }
+}

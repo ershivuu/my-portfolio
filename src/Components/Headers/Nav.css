@@ -1,0 +1,140 @@
+.my-header {
+  border-bottom-right-radius: 50px;
+  border-bottom-left-radius: 50px;
+}
+.medi-logo {
+
+  height: 60px;
+  -o-object-fit: contain;
+  object-fit: contain;
+}
+.bg-light {
+  background-color: transparent !important;
+}
+.nav-1 {
+  position: absolute;
+  right: 0;
+}
+.navbar-nav li {
+  margin-right: 50px;
+}
+.navbar-brand {
+  margin-left: -20%;
+}
+.nav-link {
+  color: white !important;
+  font-weight: 600;
+  font-size: 20px;
+}
+.navbar-nav {
+  margin-left: 30px;
+}
+.my-header.scrolled {
+  background-color: var(--secondary) !important;
+}
+.nav-link.scrolled {
+  color: black !important;
+}
+.navbar-collapse {
+  /* margin-top: 20px; */
+  margin-right: -40px;
+}
+@media only screen and (max-width: 767px) {
+  .navbar-brand {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .navbar-nav {
+    position: relative !important;
+    margin-right: 0px;
+  }
+  .medi-logo {
+    width: 165px;
+    height: 45px;
+    margin-right: -26px;
+  }
+
+  .nav-link {
+    text-align: start;
+    margin-right: 10px;
+    color: black !important;
+  }
+  .nav-link:focus {
+    background-color: transparent;
+    color: black !important;
+  }
+  .user-link:focus {
+    background-color: transparent;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+  }
+  .bg-light {
+    background-color: white !important;
+  }
+  .nav-part-2 {
+    margin-top: -2px !important;
+  }
+}
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
+  .navbar-brand {
+    margin-left: -51%;
+  }
+  .nav-link {
+    text-align: end !important;
+    margin-right: 10px;
+    color: black !important;
+  }
+}
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
+  .nav-link {
+    text-align: end !important;
+    margin-right: 10px;
+    color: black !important;
+  }
+
+  .navbar-brand {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .navbar-nav {
+    position: relative !important;
+    margin-right: 0px;
+  }
+  .medi-logo {
+    width: 165px;
+    height: 45px;
+    margin-right: -26px;
+  }
+
+  .nav-link {
+    margin-left: 140px !important;
+    text-align: end;
+    margin-right: 10px;
+    color: black !important;
+  }
+  .nav-link:focus {
+    background-color: transparent;
+    color: black !important;
+  }
+  .user-link:focus {
+    background-color: transparent;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+  }
+  .bg-light {
+    background-color: white !important;
+  }
+  .nav-part-2 {
+    margin-top: -2px !important;
+  }
+}
+@media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (orientation: landscape) {
+  .navbar-brand {
+    margin-left: -35%;
+  }
+}
+@media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (orientation: portrait) {
+}
