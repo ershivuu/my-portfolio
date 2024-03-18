@@ -254,7 +254,7 @@ function Home() {
           </div>
         </div>
       </div>
-
+      
       <div className="exp-section">
         <Myprojects></Myprojects>
       </div>
